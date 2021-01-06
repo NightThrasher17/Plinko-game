@@ -9,7 +9,7 @@ var particles = [];
 var divisionsHeight = 150;
 
 function setup() {
-    var canvas = createCanvas(1200, 400);
+    var canvas = createCanvas(1200, 600);
     engine = Engine.create();
     world = engine.world;
     ground = new Ground(599,590,1200,30);
